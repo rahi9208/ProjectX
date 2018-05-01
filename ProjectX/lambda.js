@@ -8,6 +8,6 @@ exports.handler = function (event, context, callback) {
 
 
 
-	callback(null, 'Successfully executed CHathuraXYZDoX'
+	callback(null, 'Successfully executed Widanage'
 		+ mathjs.pow(2, 4) + uuid.v4() + loremIpsum() + casual.sentence);
 }
