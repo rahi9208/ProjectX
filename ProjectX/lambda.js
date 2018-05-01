@@ -6,5 +6,5 @@ exports.handler = function (event, context, callback) {
 
 
 
-	callback(null, 'Successfully executed CHathuraXYZDo' + mathjs.pow(2, 4) + uuid.v4());
+	callback(null, 'Successfully executed CHathuraXYZDoX' + mathjs.pow(2, 4) + uuid.v4());
 }
