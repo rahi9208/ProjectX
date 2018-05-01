@@ -1,6 +1,9 @@
 let AWS = require('aws-sdk');
-exports.handler = function(event, context, callback) {
+let mathjs = require('mathjs');
+exports.handler = function (event, context, callback) {
 
 
-	callback(null,'Successfully executed');
+
+
+	callback(null, 'Successfully executed XYZM' + mathjs.pow(2, 4));
 }
